@@ -1,0 +1,438 @@
+HTML CODE
+
+<html>
+<head>
+     <title>Zclone</title>
+    <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
+    <link rel="stylesheet" href="zomatoClone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    	a{
+    		text-decoration: none;
+    	}
+    </style>
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav">
+            <div>
+                <a href="https://www.zomato.com/mobile"><font color="White" ><b>Get The App</b></font></a>
+            </div>
+            <ul class="nav-bar">
+            	<a href="https://www.zomato.com/investor-relations"><font color="White">Investors Relations</font></a>
+                <a href="https://www.zomato.com/partner-with-us"><font color="White"><li>Add Restaurant</li></font></a>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>
+        </div>
+        <div class="head">
+            <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+            <h3>Discover the best food & drinks in Delhi NCR</h3>
+            <div class="search">
+                <div class="search-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Phagwara,144411</p>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                </div>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png">
+        </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section class="section-1">
+        <div class="section-1-item">
+            <div class="items-details"><a href="https://www.zomato.com/ludhiana/order-food-online?delivery_subzone=11393"><p>Order Food Online</p></a></div>
+            <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+        <div class="section-1-item">
+
+            <div class="items-details"><a href="https://www.zomato.com/ludhiana/dine-out"><font color="blue"><p>Dining Out</p></font></a></div>
+            <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><a href="https://www.zomato.com/ludhiana/samrala-chowk-restaurants?category=3"><p>Nightlife & Club</p></a></div>
+            <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt="">
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section-2">
+        <div class="section-2-heading">
+            <p>Popular localities in and around Ludhiana</p>
+        </div>
+        <div class="section-2-container">
+            <div class="section-2-items">
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/sarabha-nagar-restaurants">
+                    <p class="item-head">Srabha Nagar</p>
+                    <p class="item-subhead">93 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/gurudev-nagar-restaurants">
+                    <p class="item-head">Gurudev Nagar</p>
+                    <p class="item-subhead">128 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/model-town-restaurants">
+                    <p class="item-head">Model Town</p>
+                    <p class="item-subhead">113 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/civil-lines-restaurants">
+                    <p class="item-head">Civil Lines</p>
+                    <p class="item-subhead">187 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/brs-nagar-restaurants">
+                    <p class="item-head">BRS Nagar</p>
+                    <p class="item-subhead">47 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/rajguru-nagar-restaurants">
+                    <p class="item-head">Rajguru nagar</p>
+                    <p class="item-subhead">73 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/dugri-restaurants">
+                    <p class="item-head">Dugri</p>
+                    <p class="item-subhead">121 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/pau-restaurants">
+                    <p class="item-head">PAU</p>
+                    <p class="item-subhead">127 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/ludhiana-junction-restaurants">
+                    <p class="item-head">ludhiana Junction</p>
+                    <p class="item-subhead">237 Places</p>
+                </a>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/pakhowal-road-restaurants">
+                    <p class="item-head">Pakhowal road</p>
+                    <p class="item-subhead">74 Places</p>
+                </a>
+                </div>
+                 <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/aggar-nagar-restaurants">
+                    <p class="item-head"> Aggar Nagar</p>
+                    <p class="item-subhead">88 Places</p>
+                </a>
+                </div>
+                 <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/industrial-area-restaurants">
+                    <p class="item-head">Industrial Area</p>
+                    <p class="item-subhead">93 Places</p>
+                </a>
+                </div>
+                 <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/sector-32-ludhiana-restaurants">
+                    <p class="item-head">Sector 32,Ludhiana</p>
+                    <p class="item-subhead">185 places</p>
+                </a>
+                </div>
+                 <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/shastri-nagar-restaurants">
+                    <p class="item-head">shastri Nagar</p>
+                    <p class="item-subhead">79 Places</p>
+                </a>
+                </div>
+                 <div class="section-2-item">
+                    <a href="https://www.zomato.com/ludhiana/samrala-chowk-restaurants">
+                    <p class="item-head">Samrala Chawk</p>
+                    <p class="item-subhead">86 Places</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section-3">
+        <div class="section-3-container">
+            <div class="section-3-img">
+                <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+            </div>
+            <div class="section-3-content">
+                <h1>Get the Zomato App</h1>
+                <h5>We will send you a link, open it on your phone to download <br>the app</h5>
+                <p>
+                    Download the app from
+                </p>
+                <div class="section-3-download">
+                    <map name=zandroid>
+                        <area shape="rectangle" coords="267,75,320,96" href="https://play.google.com/store/apps/details?id=com.application.zomato&_branch_match_id=1112963245152053552&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" title="rectangle">
+                    </map>
+                    <map name="#zmac">
+                        <area shape="rectangle" coords="265,73,318,94" href="https://apps.apple.com/in/app/zomato-food-restaurant-finder/id434613896?_branch_match_id=1112963245152053552&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3Kz00sydfNzC8GAFKYbuoiAAAA" title="rect">
+                    </map>
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" usemap="#zandroid">    
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" usemap="#zmac">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <code><h3>
+            This Zomato Clone Web project is created by Rahul Dey 
+        </h3>
+        </code>    
+    </footer>
+</body>
+</html>
+
+CSS CODE
+
+/* *{
+    margin: 0;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.header-image {
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-image img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+    text-decoration: none;
+}
+.nav-bar {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo {
+    width: 20vw;
+}
+.head h3 {
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.search {
+    display: flex;
+    width: 55vw;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px
+}
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.search .search-item p {
+    color: gray;
+    border-right: 1px solide gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.search .search-item a{
+    text-decoration: none;
+    color: black;
+}
+.search .search-item input {
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .search-item:first-child{
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+.search .search-item:last-child{
+    width: 70%;
+    color: gray;
+}
+/* SECTION 1 */
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.section-1 .section-1-item {
+    position: relative;
+    /* width: 300px; */
+    width: 15rem;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgb(228, 228, 228);
+}
+.section-1 .section-1-item img {
+    width: 100%;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 15px;
+    z-index: -1;
+}
+.section-1 .section-1-item .items-details {
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.section-1 .section-1-item .items-details p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;    
+}
+.section-1 .section-1-item:hover {
+    box-shadow: 0px 1px 2px rgba(207, 207, 207, 0.5);
+    transition: all 0.1s;
+}
+
+
+/* SECTION 2 */
+.section-2 {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.section-2-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.section-2 .section-2-container .section-2-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item {
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+}
+.section-2-item {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(236, 236, 236);
+    padding: 20px;
+}
+.section-2-item .item-head {
+    font-size: 1.2rem;
+    color: rgb(28, 28, 28);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section-2-item .item-subhead {
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
+
+/* SECTION 3 */
+.section-3 {
+    height: 620px;
+    background-color: rgb(255, 251, 247);
+}
+.section-3-container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-img {
+    width: 40%;
+}
+.section-3-img img {
+    width: 400px;
+}
+
+.section-3-content h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-3-content h5{
+    color: gray;
+    font-weight: lighter;
+}
+.section-3-content p{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-3-download img{
+    width: 40%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
